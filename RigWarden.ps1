@@ -5,7 +5,7 @@
     y deshacer cualquier cambio. Pensada para usuarios sin conocimientos técnicos.
 
     Uso (PowerShell):
-        irm https://raw.githubusercontent.com/USUARIO/rigwarden/main/RigWarden.ps1 | iex
+        irm https://raw.githubusercontent.com/Jvillado29/rigwarden/main/RigWarden.ps1 | iex
 
     Versión 0.1: Inicio automático · Procesos · Seguridad · Deshacer
 #>
@@ -15,8 +15,8 @@
 # ----------------------------------------------------------------------------------------------
 $AppName    = 'RigWarden'
 $AppVersion = '0.1.0'
-# Cambia USUARIO por tu nombre de usuario de GitHub:
-$RepoRawUrl = 'https://raw.githubusercontent.com/USUARIO/rigwarden/main/RigWarden.ps1'
+# Repositorio oficial:
+$RepoRawUrl = 'https://raw.githubusercontent.com/Jvillado29/rigwarden/main/RigWarden.ps1'
 
 # ----------------------------------------------------------------------------------------------
 #  Si se ejecuta como archivo en Windows PowerShell 5.1, se vuelve a cargar leyendo el archivo

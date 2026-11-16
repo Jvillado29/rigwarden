@@ -20,7 +20,7 @@ Nació después de limpiar un PC de juegos infectado con un minero de criptomone
 Abre **PowerShell** (clic derecho en el botón de Inicio → *Terminal* o *Windows PowerShell*), pega esto y pulsa Enter:
 
 ```powershell
-irm https://raw.githubusercontent.com/USUARIO/rigwarden/main/RigWarden.ps1 | iex
+irm https://raw.githubusercontent.com/Jvillado29/rigwarden/main/RigWarden.ps1 | iex
 ```
 
 Acepta el aviso de Windows para darle permisos de administrador y se abrirá la ventana. No se instala nada: al cerrarla, no queda nada en marcha.
